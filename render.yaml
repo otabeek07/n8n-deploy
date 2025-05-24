@@ -4,7 +4,6 @@ services:
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
-    buildCommand: ""
     envVars:
       - key: GENERIC_TIMEZONE
         value: Europe/Tashkent
@@ -14,4 +13,3 @@ services:
         value: otabek
       - key: N8N_BASIC_AUTH_PASSWORD
         value: strongpassword123
-
