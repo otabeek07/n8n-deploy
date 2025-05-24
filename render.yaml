@@ -5,7 +5,6 @@ services:
     plan: free
     dockerfilePath: ./Dockerfile
     buildCommand: ""
-    startCommand: "n8n start"
     envVars:
       - key: GENERIC_TIMEZONE
         value: Europe/Tashkent
@@ -15,3 +14,4 @@ services:
         value: otabek
       - key: N8N_BASIC_AUTH_PASSWORD
         value: strongpassword123
+
